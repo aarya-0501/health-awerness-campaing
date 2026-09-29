@@ -1,11 +1,9 @@
 import streamlit as st
 
-# This must be the absolute first Streamlit command in your script
 st.set_page_config(
     page_title="Health Awareness Campaign", page_layout="centered"
 )
 
-# Initialize session state for navigation
 if "topic" not in st.session_state:
   st.session_state.topic = None
 
