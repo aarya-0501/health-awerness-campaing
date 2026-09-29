@@ -442,5 +442,3 @@ else:
         st.session_state["surveys"] = []
         st.session_state["camp_reports"] = []
         st.success("Campaign data storage has been reset.")
-
-*This is for informational purposes only. For medical advice or diagnosis, consult a professional.*
