@@ -216,7 +216,7 @@ else:
     with st.form("quiz_form"):
       q1 = st.radio("1. How many servings of fruits or vegetables do you eat in a typical day?", ["Rarely any (0 pts)", "1 serving (1 pt)", "2-3 servings (2 pts)", "4 or more servings (3 pts)"])
       q2 = st.radio("2. How many days a week do you get at least 30 minutes of physical activity?", ["0 days (0 pts)", "1-2 days (1 pt)", "3-4 days (2 pts)", "5+ days (3 pts)"])
-      q3 = st.radio("3. On average, how many hours do you sleep per night?", ["Less than 5 hours (0 pts)", "5-6 hours (1 pt)", "6-7 hours (2 pt)", "7-9 hours (3 pts)"])
+      q3 = st.radio("3. On average, how many hours do you sleep per night?", ["Less than 5 hours (0 pts)", "5-6 hours (1 pt)", "6-7 hours (2 pts)", "7-9 hours (3 pts)"])
       q4 = st.radio("4. How many glasses of water do you drink daily?", ["1-2 glasses (0 pts)", "3-4 glasses (1 pt)", "5-6 glasses (2 pts)", "7+ glasses (3 pts)"])
       q5 = st.radio("5. How often do you wash your hands before meals or after using the toilet?", ["Rarely (0 pts)", "Sometimes (1 pt)", "Most of the time (2 pts)", "Always (3 pts)"])
       q6 = st.radio("6. How often do you feel stressed, anxious, or overwhelmed?", ["Almost every day (0 pts)", "A few times a week (1 pt)", "Occasionally (2 pts)", "Rarely (3 pts)"])
