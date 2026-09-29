@@ -1,9 +1,5 @@
 import streamlit as st
 
-st.set_page_config(
-    page_title="Health Awareness Campaign", page_layout="centered"
-)
-
 if "topic" not in st.session_state:
   st.session_state.topic = None
 
@@ -40,7 +36,7 @@ if st.session_state.topic is None:
   st.write("Select a topic below to learn more:")
 
   for topic in information.keys():
-    if st.button(topic, use_container_width=True):
+    if st.button(topic):
       st.session_state.topic = topic
       st.rerun()
 
